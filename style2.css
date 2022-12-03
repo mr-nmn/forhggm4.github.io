@@ -1,0 +1,114 @@
+.center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#hid {
+    display: flex;
+    justify-content: center;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid rgb(169, 169, 169);
+    border-radius: 30px;
+    color: rgb(74, 74, 74);
+}
+
+#r1,
+#r2,
+#r3,
+#r4,
+#r5,
+#r6 {
+    font-weight: bolder;
+    display: flex;
+    width: 300px;
+    height: 20px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+
+#frm {
+    background-color: white;
+    width: 400px;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 10px;
+}
+
+.btn2 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 40px;
+}
+
+#btn {
+    width: 80px;
+}
+
+.btn {
+    margin-left: 30px;
+}
+
+.mybtn {
+    width: 80px;
+    display: none;
+    position: fixed;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #9f9f9c;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 50px;
+}
+
+#myBtn1 {
+    bottom: 5px;
+    right: 5px;
+}
+
+#myBtn2 {
+    bottom: 5px;
+    left: 5px;
+}
+
+#myBtn3 {
+    top: 5px;
+    left: 5px;
+}
+
+#myBtn4 {
+    top: 5px;
+    right: 5px;
+}
+
+#myBtn5 {
+    top: 5px;
+    right: 48%;
+}
+
+#myBtn6 {
+    bottom: 5px;
+    right: 47%;
+}
+
+@media (max-width: 540px) {
+    #myBtn5 {
+        top: 5px;
+        right: 43%;
+    }
+
+    #myBtn6 {
+        bottom: 5px;
+        right: 42%;
+    }
+}
